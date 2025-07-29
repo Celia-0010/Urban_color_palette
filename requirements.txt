@@ -1,7 +1,12 @@
-pandas
 numpy
+pandas
 matplotlib
 scikit-image
 plotly
 scipy
 requests
+torch
+opencv-python
+Pillow
+tqdm
+pyarrow
