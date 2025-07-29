@@ -4,7 +4,9 @@ This repository includes a complete pipeline for generating the Urban Color Data
 
 
 
-### **1. Image Collection** (`scripts/01_image_collection.ipynb`)
+### **1. Image Collection** 
+`scripts/01_image_collection.ipynb`
+
 
 Extracts metadata, and downloads front/back direction images per point across the road network via Google Street View API.
 
@@ -13,22 +15,36 @@ Extracts metadata, and downloads front/back direction images per point across th
 
 
 
-### **2. Weather Classification** (`scripts/02_weather_classification.py`)
+### **2. Weather Classification** 
+`scripts/02_weather_classification.py`
+
+
 Classifies images into `sunny` or `cloudy` using CLIP.
 
 > CLIP model is not included in this repository. You need to set up [CLIP](https://github.com/openai/CLIP) locally.
 
 
 
-### **3. Semantic Segmentation** (`scripts/03_semantic_segmentation.py`)
+### **3. Semantic Segmentation** 
+`scripts/03_semantic_segmentation.py`
+
+
 Performs semantic segmentation using Grounded SAM model to segment images into 34 initial semantic categories.
 
 > Grounded SAM is not included in this repository. You need to deploy [Grounded SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) separately.
 
 
 
-### **4. Color Extraction** (`scripts/04_color_extraction.py`)
+### **4. Color Extraction** 
+`scripts/04_learn_color_centroid.py`
+
+
 - Implements incremental online k-means clustering in the RGB color space to extract initial 50 colors.
+
+
+`scripts/04_02_apply_color_model.py`
+
+
 - Generates a semantic-color matrix (`data/intermediate/color_semantic_raw.parquet`) that stores pixel ratios for all images across 34 semantic categories and 50 color clusters.
 
 
