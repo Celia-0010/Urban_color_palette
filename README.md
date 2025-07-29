@@ -49,7 +49,11 @@ Performs semantic segmentation using Grounded SAM model to segment images into 3
 
 
 
-### **5. Dataset Integration** (`scripts/05_dataset_integration.ipynb`)
+### **5. Dataset Integration** 
+`scripts/05_dataset_integration.ipynb`
+
+
+
 - Merges:
 
   - 50 → 22 color classes (CIEDE2000 color difference)
