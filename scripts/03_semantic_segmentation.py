@@ -488,7 +488,7 @@ if __name__ == "__main__":
                 revised_masks = revised_masks.view_as(masks)
                 masks = revised_masks.bool()
                 # ==========================================================================================
-                # Final merging stage (optimized version)
+                # Final merging stage 
                 # ------------------------------------------------------------------------------------------
                 # Create phrase to index mapping
                 phrase_groups = defaultdict(list)
