@@ -84,7 +84,7 @@ The integrated dataset file is located at: `data/final/color_semantic_merged_wit
 
 ### 2. Weather Label
 
-* `weather`: Lighting condition of the image, classified as `sunny` or `cloudy`
+* `weather`: Lighting condition of the image, classified as `sunny` or `cloudy`.
 
 
 
