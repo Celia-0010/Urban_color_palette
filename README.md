@@ -36,7 +36,7 @@ Performs semantic segmentation using Grounded SAM model to segment images into 3
 
 
 ### **4. Color Extraction** 
-`scripts/04_learn_color_centroid.py`
+`scripts/04_01_learn_color_centroids.py`
 
 
 - Implements incremental online k-means clustering in the RGB color space to extract initial 50 colors.
