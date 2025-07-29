@@ -1,7 +1,8 @@
+![Urban Color Palette](data/final/merged_color_card_sorted_by_hue.png)
+
 # **Code Overview**
 
 This repository includes a complete pipeline for generating the Urban Color Dataset using Google Street View Imagery and Vision-Language Models.
-
 
 
 ### **1. Image Collection** 
