@@ -1,6 +1,6 @@
 # **Code Overview**
 
-This repository includes a complete pipeline for generating the Urban Color Dataset using Google Street View Imagery and Vision-Language Models
+This repository includes a complete pipeline for generating the Urban Color Dataset using Google Street View Imagery and Vision-Language Models.
 
 
 
