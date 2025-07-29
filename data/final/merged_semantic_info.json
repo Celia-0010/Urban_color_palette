@@ -1,0 +1,20 @@
+{
+    "id1": "building",
+    "id2": "road",
+    "id3": "sidewalk",
+    "id4": "overpass",
+    "id5": "tunnel",
+    "id6": "sky",
+    "id7": "vegetation",
+    "id8": "terrain",
+    "id9": "sea",
+    "id10": "street furniture",
+    "id11": "traffic equipment",
+    "id12": "commercial signboard",
+    "id13": "pedestrian",
+    "id14": "motorcycle",
+    "id15": "car",
+    "id16": "bus",
+    "id17": "tram",
+    "id18": "truck"
+}
